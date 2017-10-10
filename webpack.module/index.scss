@@ -1,0 +1,24 @@
+//
+//  AEM-read-more-text-component styles
+//
+.component-text {
+    word-break: break-word;
+    hyphens: auto;
+
+    .text-component {
+        margin-bottom: 10px;
+
+        &__truncated-content {
+            margin-bottom: 0px;
+            overflow: hidden;
+            transition: all 300ms;
+
+            *:last-child {
+                margin-bottom: 0px;
+            }
+        }
+        &__truncated-text {
+            margin-bottom: 0px;
+        }
+    }
+}
